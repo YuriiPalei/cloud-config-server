@@ -1,4 +1,4 @@
-### Naming rules
+### General
 
 You have to push your config files in this repository.
 
@@ -36,8 +36,9 @@ To integrate your Spring Boot application with Spring Cloud Configs server you h
 </dependencies>
 ```
 
-**Important**: spring-cloud.version defines depends on Spring Boot version which you are using.  
-Choose your version of Spring Cloud here: https://spring.io/projects/spring-cloud
+**Important**  
+spring-cloud version defines depends on Spring Boot version which you are using.  
+[Choose your version of Spring Cloud here.](https://spring.io/projects/spring-cloud)
 
 2. In your local `yaml` define next properties:
 
