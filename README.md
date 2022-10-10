@@ -10,7 +10,6 @@ To integrate your Spring Boot application with Spring Cloud Configs server you h
 1. Add dependencies to `pom.xml`:
 
 ```xml
-
 <dependencyManagement>
     <dependencies>
         <dependency>
@@ -25,7 +24,6 @@ To integrate your Spring Boot application with Spring Cloud Configs server you h
 ```
 
 ```xml
-
 <dependencies>
     <dependency>
         <groupId>org.springframework.cloud</groupId>
