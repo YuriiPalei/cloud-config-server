@@ -1,7 +1,5 @@
 ### General
 
-You have to push your config files in this repository.
-
 Config file name should have next view: `${application}-${profile}.yml`  
 For example: `ezchoice-test.yml`
 
