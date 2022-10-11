@@ -10,6 +10,6 @@ spring:
   security:
     user:
       name: root
-      password: password
+      password: passwrd
   application:
     name: config-server
