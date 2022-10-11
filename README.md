@@ -12,7 +12,7 @@ While starting Spring Config Server VM options must be passed:
 Config file name should have next view: `${application}-${profile}.yml`  
 For example: `ezchoice-test.yml`
 
-**Note** The config file should to contain empty strings in properties like:
+**Note** The config file should not contain empty strings in properties like:
 
 ```yaml
 backend:
