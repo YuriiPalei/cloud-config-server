@@ -1,6 +1,7 @@
 ### On Start
 
 While starting Spring Config Server VM options must be passed:
+
 ```text
 -Dspring.profiles.active=native 
 -DsearchLocation=file:///${path-to-your-local-repo}
@@ -10,6 +11,13 @@ While starting Spring Config Server VM options must be passed:
 
 Config file name should have next view: `${application}-${profile}.yml`  
 For example: `ezchoice-test.yml`
+
+**Note** The config file should to contain empty strings in properties, like:
+
+```yaml
+backend:
+  root: 
+```
 
 ### Set up client
 
