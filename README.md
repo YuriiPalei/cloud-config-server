@@ -1,9 +1,17 @@
+### On Start
+
+While starting Spring Config Server VM options must be passed:
+```text
+-Dspring.profiles.active=native 
+-DsearchLocation=file:///${path-to-your-local-repo}
+```
+
 ### General
 
 Config file name should have next view: `${application}-${profile}.yml`  
 For example: `ezchoice-test.yml`
 
-### Set up
+### Set up client
 
 To integrate your Spring Boot application with Spring Cloud Configs server you have to:
 
