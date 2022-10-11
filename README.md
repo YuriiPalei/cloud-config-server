@@ -58,7 +58,7 @@ spring-cloud version defines depends on Spring Boot version which you are using.
 spring:
   cloud:
     config:
-      uri: http://root:password@localhost:8888
+      uri: http://root:passwrd@localhost:8888
   application:
     name: ${application}
   profiles:
